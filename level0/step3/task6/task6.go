@@ -11,7 +11,7 @@ func main() {
 	var name string
 	fmt.Println("Введите своё имя:")
 
-	// fmt.Scanln(&name) // fmt.Scan-ы - для пидорасов этим не возможно пользоваться
+	// fmt.Scanln(&name) // fmt.Scan-ы - не стоит использовать
 
 	// Используй bufio.Reader для чтения
 	reader := bufio.NewReader(os.Stdin)
