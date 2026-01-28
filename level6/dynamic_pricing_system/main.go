@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 	"time"
-	"yandex_lms/level6/dynamic_pricing_system/price"
-	"yandex_lms/level6/dynamic_pricing_system/traffic"
-	"yandex_lms/level6/dynamic_pricing_system/weathr"
+
+	"github.com/galiullindo/yandex_go1_step_by_step/level6/dynamic_pricing_system/price"
+	"github.com/galiullindo/yandex_go1_step_by_step/level6/dynamic_pricing_system/traffic"
+	"github.com/galiullindo/yandex_go1_step_by_step/level6/dynamic_pricing_system/weathr"
 )
 
 func main() {

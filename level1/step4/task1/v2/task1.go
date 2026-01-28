@@ -8,7 +8,8 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"yandex_lms/level1/step4/task1/v2/school"
+
+	"github.com/galiullindo/yandex_go1_step_by_step/level1/step4/task1/v2/school"
 )
 
 func getEvent(r *bufio.Reader) (string, error) {

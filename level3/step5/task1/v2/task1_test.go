@@ -2,7 +2,8 @@ package main
 
 import (
 	"testing"
-	reference "yandex_lms/level3/step5/task1/v2/internal"
+
+	reference "github.com/galiullindo/yandex_go1_step_by_step/level3/step5/task1/v2/internal"
 )
 
 func TestSolution(t *testing.T) {

@@ -3,9 +3,10 @@ package price
 import (
 	"math"
 	"time"
-	"yandex_lms/level6/dynamic_pricing_system/timeofday"
-	"yandex_lms/level6/dynamic_pricing_system/traffic"
-	"yandex_lms/level6/dynamic_pricing_system/weathr"
+
+	"github.com/galiullindo/yandex_go1_step_by_step/level6/dynamic_pricing_system/timeofday"
+	"github.com/galiullindo/yandex_go1_step_by_step/level6/dynamic_pricing_system/traffic"
+	"github.com/galiullindo/yandex_go1_step_by_step/level6/dynamic_pricing_system/weathr"
 )
 
 type PriceCalculator struct {
